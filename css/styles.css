@@ -1,0 +1,73 @@
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #535353;
+	color: #FFFFFF;
+	font-family: "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.9em; 
+}
+
+h2 {
+	
+}
+
+#hero {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+}
+
+blockquote {
+	
+}
+
+nav {
+	display: block;
+	font-size: 1.3em;
+	color: #8DC3E0;
+	background-color: #9A0000;
+	margin-bottom: 5%;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 2%;
+	text-align: center;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #8DC3E0;
+}
+
+#SPIDERMAN {
+	background-color: #761012;
+	color: #8E92CD;
+	margin: 3% 0;
+	border: solid #fff 1px;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 5%;
+}
+
+a:hover {
+	
+}
