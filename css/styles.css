@@ -3,6 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	border: 0;
 }
 
 body {
@@ -27,7 +28,8 @@ h2 {
 }
 
 blockquote {
-	
+	font-size: 2em;
+	text-align: center;
 }
 
 nav {
@@ -61,6 +63,59 @@ nav li a {
 	border: solid #fff 1px;
 	border-collapse: collapse;
 	text-align: center;
+}
+
+#container {
+	text-align: center;
+	padding: 0;
+}
+
+#container table {
+	width: 80%;
+	margin: 0 auto;
+	border: solid #fff 1px;
+	border-collapse: collapse;
+	padding: 0;
+}
+
+#container td {
+	padding: 10px 0;
+	text-align: center;
+	border: solid #fff 1px;
+	border-collapse: collapse;
+}
+
+#container label {
+	padding: 25px 0;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#container input {
+	height: 1.6em;
+	width: 9.8em;
+	border-radius: 25px;
+	border-left: 20px;
+	border-right: 20px;
+	font-size: 1.4em;
+	font-weight: bold;
+	background-color: #2A2A2A;
+	color: #fff;
+	border: 5px double #fff;
+	text-align: center;
+	padding: 0;
+}
+
+#container .frmButton {
+	padding: 0;
+	margin: 0;
+	width: 10em;
+	background-color: #D0D0D0;
+}
+
+#container .frmButton:hover {
+	background-color: #fff;
+	color: #D0D0D0;
 }
 
 footer {
